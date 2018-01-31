@@ -1,3 +1,8 @@
+- Forked from git@github.com:codyseibert/tab-tracker.git
+- run `npm start` in website folder to view documentation for the workshop 
+
+
+
 # Tab Tracker
 A Vue.js / Express.js web application for keeping track of guitar tabs
 
