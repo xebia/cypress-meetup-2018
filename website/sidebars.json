@@ -1,0 +1,7 @@
+{
+  "docs": {
+    "Setup": ["introduction","installation"],
+    "Our first test": ["firstTest"],
+    "Next section": ["doc4","doc5"]
+  }
+}
