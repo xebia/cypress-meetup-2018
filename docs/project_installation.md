@@ -3,9 +3,11 @@ id: project_installation
 title: Installing the Node.js Project
 sidebar_label: Project Installation
 ---
+## Project overview
+![alt-text](/img/server_client.png)
 
+1. clone project: `git clone git@github.com:xebia/cypress-meetup-2018.git`
 
-1. clone project: git clone git@github.com:xebia/cypress-meetup-2018.git
 2. enter the following on your commandline
  
 
