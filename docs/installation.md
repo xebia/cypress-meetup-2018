@@ -2,6 +2,6 @@
 id: installation
 title: Installing Cypress.io
 ---
+To add Cypress as a dependency to your project run `npm install cypress`. 
 
-This is a link to [another document.](/docs/en/doc3.md)  
-This is a link to an [external page.](http://www.example.com)
+You can find the details in the [Cypress documentation.](https://docs.cypress.io/guides/getting-started/installing-cypress.html)
