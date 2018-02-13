@@ -13,3 +13,4 @@ By typing `npm install cypress --save-dev` NPM will do 2 things:
 
 ![Cypress installation](http://localhost:3000/img/installing-cli.e1693232.gif "Cypress Installation")
 
+
