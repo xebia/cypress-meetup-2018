@@ -18,12 +18,14 @@ There are several ways to run your tests with Cypress. Let's go over them all.
 As your test sets mature you'll probably want to run your tests in headless mode.
 You can do this by issuing the command: ```npx cypress run```.
  
-By default, this command, will use the [Electron browser](https://electronjs.org/). It is packaged with Cypress and thus doesn't have to be installed. On top of that it runs headlessly.
+By default, this command will use the [Electron browser](https://electronjs.org/). It is packaged with Cypress and thus doesn't have to be installed. On top of that it runs headlessly.
 
-If you want to run a single spec file from the CLI use the ```--spec```-flag.
+### Running a single test from the CLI
+
+If you want to run a single spec file use the ```--spec```-flag.
 
 ```bash
 npx cypress run --spec cypress/integration/my_spec.js
 ```   
 
-There are many more options to configre the CLI runner, have a look at the [official Cypress documentation](https://docs.cypress.io/guides/guides/command-line.html#cypress-run).
+There are many more options to configure the CLI runner, have a look at the [official Cypress documentation](https://docs.cypress.io/guides/guides/command-line.html#cypress-run).
