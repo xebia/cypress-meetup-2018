@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Setup": ["introduction","installation"],
+    "Setup": ["introduction","installation","running"],
     "Our first test": ["firstTest"],
     "Next section": ["doc4","doc5"]
   }
