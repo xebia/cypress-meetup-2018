@@ -19,6 +19,7 @@
         <br>
         <v-btn
           dark
+          name="loginBtn"
           class="cyan"
           @click="login">
           Login
