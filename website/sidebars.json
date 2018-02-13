@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Setup": ["introduction","installation"],
+    "Setup": ["introduction","project_installation","cypress_installation","configuration","running"],
     "Our first test": ["firstTest"],
     "Next section": ["customcommands","doc4","doc5"]
   }
