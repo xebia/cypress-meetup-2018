@@ -14,19 +14,16 @@ In your Cypress Integration folder create a new spec file called ```cc_exercise1
 
 ```
 describe('Search actions', function () {
-    it('should show the correct message when no result is found', function () {
+    
+    it('should search on song title', function () {
 
-      //visit base URL
       cy.visit('http://localhost:8080/');
-      
-      //call the custom search function
-      cy.search('123');
-
-      //Assert that the correct song is shown
-      cy.get('.pl-4.pr-4.pt-2.pb-2').should('contain','No slot content defined.');
+      cy.search('blood');
+      cy.get('.song-title').should('contain','In the blood');
     });
+});
 ```
-Notice that we are calling a custom search function here. This function can be called as any other command in Cypress. Like ```cy.get()``` we can now simply invoke the custom command by typing ```cy.<custom command>```. In this case our custom command is called search and it takes a string to search on as an argument.
+Notice that we are calling a custom search function cy.search here. This function can be called as any other command in Cypress. Like ```cy.get()``` we can now simply invoke the custom command by typing ```cy.<custom command>```. In this case our custom command is called search and it takes a string to search on as an argument.
 
 2. Create a new custom command 
 Custom commands are stored in the ```cypress/support/``` folder. A good place to define your custom commands is in the ```cypress/support/commands.js``` file. You can create several custom commands in one file, but it is also possible to create seperate files to group logical commands together. If you do this, you need to add these files to the ```cypress/support/index.js``` file. This file is loaded before any of the tests are run, ensuring your reusable functions are available for all your tests. 
@@ -35,9 +32,9 @@ We are now going to create the needed search function in the ```cypress/support/
 ```
 Cypress.Commands.add("search", function(input) {
     cy
-        .get(".input-group__input").children()
+        .get('input[aria-label="Search by song title, artist, album, or genre"]')
         .type(input)
-        .type("{enter}");
+        .type('{enter}');
 });
 ```
 
@@ -48,12 +45,17 @@ It also uses ```.type("{enter}");``` to simulate the push of the Enter key on th
 Save all the changes you've made and open the Cypress UI (```node_modules/.bin/cypress open```). You should now see your newly created spec file. 
 ![Exercise1specfile](http://localhost:3000/img/cc_exercise1_screenshot1.png "Exercise 1: Cypress UI")
 
-4. Add another test
+4. Create a variation
 Now create a new test in your ```cc_exercise1_spec.js``` spec file that:
-    1. Searches on a song title in your database
-    2. Asserts that this song has been found 
+    1. Searches on a artist name in your database
+    2. Asserts that the artist has been found 
 
-    Note: you need to reuse the custom command you've just created and only add a new testfunction.   
+5. Create a variation
+Add another test in your ```cc_exercise1_spec.js``` spec file that:
+    1. Searches on an unknown artist
+    2. Asserts that the correct error message is shown
+
+    Note: For step 4 and 5 you need to reuse the custom command you've just created and only add a new testfunction.   
 
 ## Exercise 2: Create a custom command for Login 
 
