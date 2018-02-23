@@ -1,7 +1,7 @@
 {
   "docs": {
-    "Setup": ["introduction","project_installation","cypress_installation","configuration","running"],
-    "Our first test": ["firstTest"],
-    "Next section": ["customcommands","doc4","doc5"]
+    "Install & Setup": ["introduction","project_installation","cypress_installation","running"],
+    "Exercises Part-one": ["firstTest", "add_song", "edit_song"],
+    "Exercises Part-two": ["customcommands","configuration","commandline"]
   }
 }
