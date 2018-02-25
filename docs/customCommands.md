@@ -26,7 +26,7 @@ describe('Search actions', function () {
 Notice that we are calling a custom search function cy.search here. This function can be called as any other command in Cypress. Like ```cy.get()``` we can now simply invoke the custom command by typing ```cy.<custom command>```. In this case our custom command is called search and it takes a string to search on as an argument.
 
 2. Create a new custom command 
-Custom commands are stored in the ```cypress/support/``` folder. A good place to define your custom commands is in the ```cypress/support/commands.js``` file. You can create several custom commands in one file, but it is also possible to create seperate files to group logical commands together. If you do this, you need to add these files to the ```cypress/support/index.js``` file. This file is loaded before any of the tests are run, ensuring your reusable functions are available for all your tests. 
+Custom commands are stored in the ```cypress/support/``` folder. A good place to define your custom commands is in the ```cypress/support/commands.js``` file. You can create several custom commands in one file, but it is also possible to create separate files to group logical commands together. If you do this, you need to add these files to the ```cypress/support/index.js``` file. This file is loaded before any of the tests are run, ensuring your reusable functions are available for all your tests. 
 
 We are now going to create the needed search function in the ```cypress/support/commands.js``` file. You can use the code below.
 ```
@@ -55,14 +55,14 @@ Add another test in your ```cc_exercise1_spec.js``` spec file that:
     1. Searches on an unknown artist
     2. Asserts that the correct error message is shown
 
-    Note: For step 4 and 5 you need to reuse the custom command you've just created and only add a new testfunction.   
+    Note: For step 4 and 5 you need to reuse the custom command you've just created and only add a new test function.   
 
 ## Exercise 2: Create a custom command for Login 
 
 Now do it yourself! Create a new custom command for the Login functionality. 
 You need to cover the following criteria:
 1. Your starting position should be from the baseurl of the application.
-2. Create a custom command that performs a succesfull login.
+2. Create a custom command that performs a succesful login.
 3. Create a minimum of one assertion to verify that uou are indeed logged in.
 4. Add this reusable function to each test you've created thus far in this workshop. (hint: use the before step functionality).
 5. Re-use this function with different data, including a failed login scenario.
