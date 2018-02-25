@@ -73,4 +73,4 @@ You need to cover the following criteria:
 
 ## More Information
 
-You can find more de examples here to help you: [Cypress documentation.](https://docs.cypress.io/api/cypress-api/custom-commands.html#Syntax)
+You can find more examples [here](https://docs.cypress.io/api/cypress-api/custom-commands.html#Syntax) to help you.
