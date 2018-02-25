@@ -3,3 +3,19 @@ id: edit_song
 title: Editing a song
 sidebar_label: Edit a song
 ---
+To complete this exercise you will need to use at least the following commands:
+
+- ```cy.contains()```
+- ```cy.parent()```
+- ```cy.find()```
+
+## Exercise:
+**Let's try to open the edit page for the song we've just added.**
+
+- Given that we know the song name, we should be able to locate the title on the page. To limit the results to a specific type of elements we can use the `contains`-function. Try to limit your search to `div`-elements where the `class`-attribute has the value `song-title`. 
+- The `contains`-function will return the element that contains our song name. However, we want to select the button to open the song details. Figure out how to find the link to the edit page of the correct song.
+
+### If you get stuck
+```
+Have a look at the structure of the page and the relation between the `song-title` element, the 'a'-element and their parent-element.
+```
