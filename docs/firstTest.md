@@ -1,13 +1,40 @@
 ---
 id: firstTest
-title: Selectors
+title: Open our application
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+For our first test we are going to perform some basic actions with Cypress. We are going to open our application and make sure that we've landed on the correct page.
+Cypress works with Commands. Commands let you interact with your application as you would normally would using your browser. You can perform navigation actions, type in tekst and create assertions. 
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+To complete this exercise you will need to use at least the folling Commands:
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+- ```cy.visit()```
+- ```cy.get()```
+- ```cy.should()```
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+## Exercise:
+1. After installing Cypress, a folder called "Integration" was created. In this Cypress Integration folder create a new spec file called ```first_test.js``` and copy in the code below:
+
+```
+describe('First test', function () {
+    
+    it('should open the main page', function () {
+    // Create your test here
+
+    });
+});
+```
+2. Navigate to the main page
+Use cy.visit() to open our Tab Tracker application. 
+You can run your test by saving all the changes you've made and open the Cypress UI (```node_modules/.bin/cypress open```). 
+
+3. Get a (unique) element on the page
+Use cy.get() to select an element on the page.
+
+3. Assert that this element contains certain attributes
+Use cy.should() to assert that the element is represented according to your expectations. The goal of your test is to assert that the landing page has been succesfully opened. 
+
+## Help - Cypress API
+You can find the three used Commands in this exercise in the Cypress API documentation. Use this documentation to complete your exercise. 
+https://docs.cypress.io/api/introduction/api.html#
+
