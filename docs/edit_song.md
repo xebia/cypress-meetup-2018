@@ -3,11 +3,11 @@ id: edit_song
 title: Editing a song
 sidebar_label: Edit a song
 ---
-To complete this exercise you will need to use at least the following commands:
+To complete this exercise have a look at the following commands:
 
 - ```cy.contains()```
-- ```cy.parent()```
-- ```cy.find()```
+- ```cy.parent() & cy.find()```
+- ```cy.siblings()```
 
 ## Exercise:
 **Let's try to open the edit page for the song we've just added.**
