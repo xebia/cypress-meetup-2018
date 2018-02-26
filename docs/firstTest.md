@@ -35,7 +35,7 @@ Use `cy.get()` to select an element on the page.
 3. Assert that this element contains certain attributes
 Use `cy.should()` to assert that the element is represented according to your expectations. The goal of your test is to assert that the landing page has been successfully opened. 
 
-## If you get stuck
+### If you get stuck
 You can find the three used Commands in this exercise in the Cypress API documentation. Use this documentation to complete your exercise. 
 https://docs.cypress.io/api/introduction/api.html
 

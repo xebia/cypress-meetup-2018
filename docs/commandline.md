@@ -10,8 +10,7 @@ Invoke this command from the place where your cypress.json is located.
 
 By default, this command will use the [Electron browser](https://electronjs.org/). It is packaged with Cypress and thus doesn't have to be installed. On top of that it runs headlessly.
 
-
-### Running a single test from the CLI
+## Running a single test from the CLI
 
 If you want to run a single spec file use the ```--spec```-flag.
 
@@ -22,13 +21,13 @@ npx cypress run --spec cypress/integration/my_spec.js
 With knowing how to run a single spec file from the commandline,
 here are some more exercises in the form of challenges, to make you even more familiar with the commandline options even better.
 
-### Exercise 1: running tests in Headless mode
+## Exercise 1: running tests in Headless mode
 Run all your tests from the commandline in Headless mode.
 
-### Exercise 2: Running tests from CLI in Chrome
+## Exercise 2: Running tests from CLI in Chrome
 Run all your tests from the commandline with the chrome browser
 
-### Exercise 3: Video's
+## Exercise 3: Video's
 Edit one of your spec-files, so it will fail on an assert.
 Now run this spec-file headless from the commandline.
 You will see in the output in your terminal that the test fails.
