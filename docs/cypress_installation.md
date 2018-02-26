@@ -4,7 +4,7 @@ title: Installing Cypress.io
 sidebar_label: Cypress Installation
 ---
 
-Installing Cypress via NPM is easy from your **projects** folder.
+Installing Cypress via NPM is easy from your project folder.
 
 By typing `npm install cypress --save-dev` NPM will do 2 things: 
 

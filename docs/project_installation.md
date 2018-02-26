@@ -33,6 +33,7 @@ In another terminal, run the following:
     npm start 
  ```  
   
+ Now go to http://localhost:8080 to check if everything is running correctly.
  
  ## About NPM 
  NPM stands for Node Package Manager. See [npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm#what-is-npm) for more info.

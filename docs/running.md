@@ -5,7 +5,6 @@ sidebar_label: Starting the Cypress GUI
 ---
 There are several ways to run your tests with Cypress. For now we will use the GUI.
 
-## Cypress GUI
 ![alt-text](/img/cypressGui.png)
 
 - By running ```npx cypress open``` in your project folder, you can open the Cypress GUI application. 
