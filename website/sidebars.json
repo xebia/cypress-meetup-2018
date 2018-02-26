@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Install & Setup": ["introduction","project_installation","cypress_installation","running"],
+    "Install & Setup": ["introduction","project_installation","cypress_installation","running","reset_db"],
     "Exercises Part-one": ["firstTest", "add_song", "edit_song"],
     "Exercises Part-two": ["customcommands","configuration","commandline"],
     "Next steps": ["want_more"]
