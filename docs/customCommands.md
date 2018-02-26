@@ -67,10 +67,6 @@ You need to cover the following criteria:
 4. Add this reusable function to each test you've created thus far in this workshop. (hint: use the before step functionality).
 5. Re-use this function with different data, including a failed login scenario.
 
-## TODO
-
-1. Should not be visible
-
 ### If you get stuck
 
 You can find more examples [here](https://docs.cypress.io/api/cypress-api/custom-commands.html#Syntax) to help you.
