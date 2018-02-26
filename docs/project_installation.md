@@ -4,8 +4,13 @@ title: Installing the Node.js Project
 sidebar_label: Project Installation
 ---
 ## Project overview
+The system under test is a tabular music tracker. It consists out of a server part, which interfaces with the database. The more visible part is the client, running in your browser as a VueJS project. We will focus on testing the client with Cypress.io.
+
+Read on to figure out how to run the project on your local machine.
+
 ![alt-text](/img/server_client.png)
 
+## Checking out the project
 1. Clone the project 
 
 ```
@@ -14,14 +19,14 @@ git clone git@github.com:xebia/cypress-meetup-2018.git
 
 2. Next we will start both the client and the server.
 
-to start the server:
- ```   
+From the root of the project:
+```   
      cd server
      npm install
      npm start 
-  ```
+ ```
 
- to start the client:
+In another terminal, run the following:
  ```   
     cd client
     npm install
