@@ -15,6 +15,6 @@ Down below is how you can use the cy.exec() to reset the database before the all
 
 ```javascript
   before('', () => {
-    cy.exec('npm run seed --prefix ../server')
+    cy.exec('npm run seed --prefix ../server').its('code').should('eq', 0)
   })
 ```
