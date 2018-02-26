@@ -26,16 +26,16 @@ describe('First test', function () {
     });
 });
 ```
-2. Navigate to the main page by using cy.visit() to open our Tab Tracker application. 
+2. Navigate to the main page by using `cy.visit()` to open our Tab Tracker application. 
 You can run your test by saving all the changes you've made and open the Cypress GUI (```npx cypress open```). 
 
 3. Get a (unique) element on the page
-Use cy.get() to select an element on the page.
+Use `cy.get()` to select an element on the page.
 
 3. Assert that this element contains certain attributes
-Use cy.should() to assert that the element is represented according to your expectations. The goal of your test is to assert that the landing page has been successfully opened. 
+Use `cy.should()` to assert that the element is represented according to your expectations. The goal of your test is to assert that the landing page has been successfully opened. 
 
-## Help - Cypress API
+## If you get stuck
 You can find the three used Commands in this exercise in the Cypress API documentation. Use this documentation to complete your exercise. 
 https://docs.cypress.io/api/introduction/api.html
 

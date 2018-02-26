@@ -71,6 +71,6 @@ You need to cover the following criteria:
 
 1. Should not be visible
 
-## More Information
+## If you get stuck
 
 You can find more examples [here](https://docs.cypress.io/api/cypress-api/custom-commands.html#Syntax) to help you.

@@ -23,4 +23,4 @@ To complete this exercise have a look at the following commands:
 
 On the create page almost every element has an id, try to use the CSS-selector id and you will find this exercise a walk in the park
 
-## [css-selectors-help](https://www.w3schools.com/cssref/css_selectors.asp)
+Have a look at this page if you want to refer to all the possible [css selectors](https://www.w3schools.com/cssref/css_selectors.asp).

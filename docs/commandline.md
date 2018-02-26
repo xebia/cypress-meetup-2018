@@ -19,17 +19,17 @@ If you want to run a single spec file use the ```--spec```-flag.
 npx cypress run --spec cypress/integration/my_spec.js
 ```   
 
-with knowing how to run a single spec file from the commandline,
+With knowing how to run a single spec file from the commandline,
 here are some more exercises in the form of challenges, to make you even more familiar with the commandline options even better.
 
 ### Exercise 1: running tests in Headless mode
-run all your tests from the commandline in Headless mode.
+Run all your tests from the commandline in Headless mode.
 
 ### Exercise 2: Running tests from CLI in Chrome
-run all your tests from the commandline with the chrome browser
+Run all your tests from the commandline with the chrome browser
 
 ### Exercise 3: Video's
-edit one of your spec-files, so it will fail on an assert.
+Edit one of your spec-files, so it will fail on an assert.
 Now run this spec-file headless from the commandline.
 You will see in the output in your terminal that the test fails.
 Now you can check the video that has been made.
@@ -43,7 +43,6 @@ Then edit your cypress.json so that it contains:
     "videoRecording": false
 }
 ```
-no re-run the failing test and check the ./cypress/videos folder and validate that the video has not been recorded.
-
+Now re-run the failing test and check the ./cypress/videos folder and validate that the video has not been recorded.
 
 There are many more options to configure the CLI runner, have a look at the [official Cypress documentation](https://docs.cypress.io/guides/guides/command-line.html#cypress-run).
