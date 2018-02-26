@@ -43,7 +43,7 @@ It also uses ```.type("{enter}");``` to simulate the push of the Enter key on th
 
 3. Run the test
 Save all the changes you've made and open the Cypress UI (```node_modules/.bin/cypress open```). You should now see your newly created spec file. 
-![Exercise1specfile](/img/cc_exercise1_screenshot1.png "Exercise 1: Cypress UI")
+![Exercise1specfile](../img/cc_exercise1_screenshot1.png "Exercise 1: Cypress UI")
 
 4. Create a variation
 Now create a new test in your ```cc_exercise1_spec.js``` spec file that:

@@ -8,9 +8,9 @@
 const siteConfig = {
   title: 'Cypress.io & Javascript basics' /* title for your website */,
   tagline: 'Test Masters Series',
-  url: 'https://www.meetup.com/Test-Masters-Series/' /* your website url */,
+  url: 'https://xebia.github.io/' /* your website url */,
   baseUrl: '/cypress-meetup-2018/' /* base url for your project */,
-  projectName: 'cypress-meetup',
+  projectName: 'cypress-meetup-2018',
   headerLinks: [
     {doc: 'introduction', label: 'Home'},
   ],
@@ -36,7 +36,7 @@ const siteConfig = {
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/cypress-io/cypress',
+  repoUrl: 'https://github.com/xebia/cypress-meetup-2018/',
 };
 
 module.exports = siteConfig;

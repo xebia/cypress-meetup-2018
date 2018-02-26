@@ -8,7 +8,7 @@ The system under test is a tabular music tracker. It consists out of a server pa
 
 Read on to figure out how to run the project on your local machine.
 
-![alt-text](/img/server_client.png)
+![alt-text](../img/server_client.png)
 
 ## Checking out the project
 1. Clone the project 
