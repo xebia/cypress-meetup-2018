@@ -9,7 +9,7 @@ const siteConfig = {
   title: 'Cypress.io & Javascript basics' /* title for your website */,
   tagline: 'Test Masters Series',
   url: 'https://www.meetup.com/Test-Masters-Series/' /* your website url */,
-  baseUrl: '/' /* base url for your project */,
+  baseUrl: '/cypress-meetup-2018/' /* base url for your project */,
   projectName: 'cypress-meetup',
   headerLinks: [
     {doc: 'introduction', label: 'Home'},
