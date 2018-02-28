@@ -11,10 +11,10 @@ Read on to figure out how to run the project on your local machine.
 ![alt-text](../img/server_client.png)
 
 ## Checking out the project
-1. Clone the project 
+1. Clone the [project from GitHub](https://github.com/xebia/cypress-meetup-2018) 
 
 ```
-git clone git@github.com:xebia/cypress-meetup-2018.git
+git clone https://github.com/xebia/cypress-meetup-2018.git
 ```
 
 2. Next we will start both the client and the server.
