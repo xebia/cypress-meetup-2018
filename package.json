@@ -1,0 +1,23 @@
+{
+  "name": "cypress-meetup-2018",
+  "version": "1.0.0",
+  "description": "- Forked from git@github.com:codyseibert/tab-tracker.git - run `npm start` in website folder to view documentation for the workshop",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xebia/cypress-meetup-2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xebia/cypress-meetup-2018/issues"
+  },
+  "homepage": "https://github.com/xebia/cypress-meetup-2018#readme"
+}
