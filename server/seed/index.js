@@ -12,29 +12,60 @@ const users = require('./users.json')
 const bookmarks = require('./bookmarks.json')
 const histories = require('./histories.json')
 
-sequelize.sync({force: true})
-  .then(async function () {
-    await Promise.all(
-      users.map(user => {
-        User.create(user)
-      })
-    )
+// sequelize.sync({force: true})
+//   .then(async function () {
+//     await Promise.all(
+//       users.map(user => {
+//         User.create(user)
+//       })
+//     )
 
-    await Promise.all(
-      songs.map(song => {
-        Song.create(song)
-      })
-    )
+//     await Promise.all(
+//       songs.map(song => {
+//         Song.create(song)
+//       })
+//     )
 
-    await Promise.all(
-      bookmarks.map(bookmark => {
-        Bookmark.create(bookmark)
-      })
-    )
+//     await Promise.all(
+//       bookmarks.map(bookmark => {
+//         Bookmark.create(bookmark)
+//       })
+//     )
 
-    await Promise.all(
-      histories.map(history => {
-        History.create(history)
-      })
-    )
-  })
+//     await Promise.all(
+//       histories.map(history => {
+//         History.create(history)
+//       })
+//     )
+//   })
+
+function resetDb () {
+  sequelize.sync({force: true})
+    .then(async function () {
+      await Promise.all(
+        users.map(user => {
+          User.create(user)
+        })
+      )
+
+      await Promise.all(
+        songs.map(song => {
+          Song.create(song)
+        })
+      )
+
+      await Promise.all(
+        bookmarks.map(bookmark => {
+          Bookmark.create(bookmark)
+        })
+      )
+
+      await Promise.all(
+        histories.map(history => {
+          History.create(history)
+        })
+      )
+    })
+}
+
+module.exports.resetDb = resetDb
