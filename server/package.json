@@ -25,7 +25,8 @@
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "sequelize": "^4.37.4",
-    "sqlite3": "^4.0.1"
+    "sqlite3": "^4.0.1",
+    "hoek": "~>4.2.1"
   },
   "devDependencies": {
     "eslint-config-standard": "^10.2.1",
