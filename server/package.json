@@ -20,11 +20,11 @@
     "express": "^4.15.4",
     "joi": "^10.6.0",
     "jsonwebtoken": "^8.0.0",
+    "moment": "~> 2.19.3",
     "morgan": "^1.8.2",
     "passport": "^0.4.0",
-    "passport-jwt": "^3.0.0",
+    "passport-jwt": "^4.0.0",
     "sequelize": "^4.37.4",
-    "moment": "~> 2.19.3",
     "sqlite3": "^4.0.1"
   },
   "devDependencies": {
